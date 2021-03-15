@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cart View Controller-->
+        <scene sceneID="RyQ-wb-Zbi">
+            <objects>
+                <viewController storyboardIdentifier="CartViewController" id="j3S-Bo-c2q" customClass="CartViewController" customModule="Spatula" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6US-kn-UJK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MP1-ln-Ba3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <string key="text">송구스럽습니다.
+서비스 준비중입니다.</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JOQ-4V-cpL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MP1-ln-Ba3" firstAttribute="top" secondItem="6US-kn-UJK" secondAttribute="top" id="L2Y-fV-TtF"/>
+                            <constraint firstItem="MP1-ln-Ba3" firstAttribute="leading" secondItem="6US-kn-UJK" secondAttribute="leading" id="MZJ-dh-gjF"/>
+                            <constraint firstItem="JOQ-4V-cpL" firstAttribute="trailing" secondItem="MP1-ln-Ba3" secondAttribute="trailing" id="oPt-o9-c7H"/>
+                            <constraint firstItem="JOQ-4V-cpL" firstAttribute="bottom" secondItem="MP1-ln-Ba3" secondAttribute="bottom" id="vaf-5Z-Xyt"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="tapbar_cart" id="suO-9T-61f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7by-Xn-aZI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="451" y="1894"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tapbar_cart" width="8" height="7"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

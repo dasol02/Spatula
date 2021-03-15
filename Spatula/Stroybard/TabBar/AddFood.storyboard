@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Add Food View Controller-->
+        <scene sceneID="yv4-3h-JRA">
+            <objects>
+                <viewController storyboardIdentifier="AddFoodViewController" id="Czn-Bh-Ze3" customClass="AddFoodViewController" customModule="Spatula" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N3P-BO-G7v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2kI-zF-L2q"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="tapbar_add" id="Rb8-lo-8o5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohe-mo-bIP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="451" y="498"/>
+        </scene>
+        <!--Add Pop View Controller-->
+        <scene sceneID="qAM-v9-3CN">
+            <objects>
+                <viewController storyboardIdentifier="AddPopViewController" id="asa-Kq-N6U" customClass="AddPopViewController" customModule="Spatula" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zvb-aR-E0L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0kV-GK-o9z">
+                                <rect key="frame" x="20" y="328" width="374" height="240"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w98-mg-meL">
+                                        <rect key="frame" x="334" y="0.0" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="31x-4A-N8m"/>
+                                            <constraint firstAttribute="height" constant="40" id="gvW-qV-gPB"/>
+                                        </constraints>
+                                        <state key="normal" image="btn_popup_close"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="식단 등록" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Jc-qe-ZlL">
+                                        <rect key="frame" x="154" y="30" width="66.5" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iUX-WD-S3P">
+                                        <rect key="frame" x="50" y="56.5" width="274" height="2"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="GXW-sZ-aQD"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VWf-xB-JYY">
+                                        <rect key="frame" x="100" y="78.5" width="174" height="141.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dms-EU-JqT">
+                                                <rect key="frame" x="0.0" y="0.0" width="174" height="40.5"/>
+                                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="사진 촬영하기"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WR7-2c-lBa">
+                                                <rect key="frame" x="0.0" y="50.5" width="174" height="40.5"/>
+                                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="앨범에서 선택하기"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qd4-fK-ryP">
+                                                <rect key="frame" x="0.0" y="101" width="174" height="40.5"/>
+                                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="사진이 없어요.."/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="VWf-xB-JYY" firstAttribute="leading" secondItem="0kV-GK-o9z" secondAttribute="leading" constant="100" id="3oe-zb-jfg"/>
+                                    <constraint firstItem="0Jc-qe-ZlL" firstAttribute="centerX" secondItem="0kV-GK-o9z" secondAttribute="centerX" id="6hK-nn-LYM"/>
+                                    <constraint firstAttribute="trailing" secondItem="iUX-WD-S3P" secondAttribute="trailing" constant="50" id="CXN-M4-2aI"/>
+                                    <constraint firstItem="w98-mg-meL" firstAttribute="top" secondItem="0kV-GK-o9z" secondAttribute="top" id="Kip-uv-ej8"/>
+                                    <constraint firstItem="iUX-WD-S3P" firstAttribute="leading" secondItem="0kV-GK-o9z" secondAttribute="leading" constant="50" id="NYC-99-PR1"/>
+                                    <constraint firstItem="iUX-WD-S3P" firstAttribute="top" secondItem="0Jc-qe-ZlL" secondAttribute="bottom" constant="5" id="NeX-8p-YHR"/>
+                                    <constraint firstAttribute="trailing" secondItem="w98-mg-meL" secondAttribute="trailing" id="Vw1-yB-aTi"/>
+                                    <constraint firstAttribute="height" constant="240" id="W5K-2t-idW"/>
+                                    <constraint firstAttribute="bottom" secondItem="VWf-xB-JYY" secondAttribute="bottom" constant="20" id="eBw-xh-iqV"/>
+                                    <constraint firstItem="0Jc-qe-ZlL" firstAttribute="top" secondItem="0kV-GK-o9z" secondAttribute="top" constant="30" id="nNw-YK-Ml2"/>
+                                    <constraint firstItem="VWf-xB-JYY" firstAttribute="top" secondItem="iUX-WD-S3P" secondAttribute="bottom" constant="20" id="orT-o0-lpK"/>
+                                    <constraint firstAttribute="trailing" secondItem="VWf-xB-JYY" secondAttribute="trailing" constant="100" id="wcw-xu-Q3T"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pzb-8h-KsT"/>
+                        <color key="backgroundColor" red="0.29803921570000003" green="0.29803921570000003" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="pzb-8h-KsT" firstAttribute="trailing" secondItem="0kV-GK-o9z" secondAttribute="trailing" constant="20" id="P94-l8-M9t"/>
+                            <constraint firstItem="0kV-GK-o9z" firstAttribute="centerX" secondItem="Zvb-aR-E0L" secondAttribute="centerX" id="Zt4-in-bBw"/>
+                            <constraint firstItem="0kV-GK-o9z" firstAttribute="centerY" secondItem="Zvb-aR-E0L" secondAttribute="centerY" id="a8T-60-DsP"/>
+                            <constraint firstItem="0kV-GK-o9z" firstAttribute="leading" secondItem="pzb-8h-KsT" secondAttribute="leading" constant="20" id="rmW-2S-mYo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rcR-fc-j5T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1292.753623188406" y="497.54464285714283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_popup_close" width="25.5" height="25.5"/>
+        <image name="tapbar_add" width="11" height="11"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

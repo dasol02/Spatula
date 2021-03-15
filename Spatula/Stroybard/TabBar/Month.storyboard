@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Month View Controller-->
+        <scene sceneID="UZ3-5C-InY">
+            <objects>
+                <viewController storyboardIdentifier="MonthViewController" id="wtG-bm-yLB" customClass="MonthViewController" customModule="Spatula" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TIW-iK-iNv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ihg-Ee-kYJ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="638"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L9k-3J-1W0" userLabel="MonthLabelView">
+                                        <rect key="frame" x="20" y="8" width="95" height="50"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAp-2q-JCC">
+                                                <rect key="frame" x="0.0" y="0.0" width="35" height="50"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="xAp-2q-JCC" secondAttribute="bottom" id="23C-ng-8jW"/>
+                                            <constraint firstItem="xAp-2q-JCC" firstAttribute="leading" secondItem="L9k-3J-1W0" secondAttribute="leading" id="3E8-pH-aq3"/>
+                                            <constraint firstItem="xAp-2q-JCC" firstAttribute="top" secondItem="L9k-3J-1W0" secondAttribute="top" id="6Zt-IO-djo"/>
+                                            <constraint firstAttribute="width" constant="95" id="L8z-hl-kHW"/>
+                                            <constraint firstAttribute="height" constant="50" id="VVy-DM-YTC"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qaZ-b3-8R1" customClass="FSCalendar">
+                                        <rect key="frame" x="10" y="58" width="394" height="580"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="qaZ-b3-8R1" secondAttribute="bottom" id="2TZ-nO-22v"/>
+                                    <constraint firstItem="L9k-3J-1W0" firstAttribute="leading" secondItem="ihg-Ee-kYJ" secondAttribute="leading" constant="20" id="7Io-dz-K6E"/>
+                                    <constraint firstItem="qaZ-b3-8R1" firstAttribute="leading" secondItem="ihg-Ee-kYJ" secondAttribute="leading" constant="10" id="JRd-M2-Okx"/>
+                                    <constraint firstItem="qaZ-b3-8R1" firstAttribute="top" secondItem="L9k-3J-1W0" secondAttribute="bottom" id="SnB-wY-Hgs"/>
+                                    <constraint firstItem="L9k-3J-1W0" firstAttribute="top" secondItem="ihg-Ee-kYJ" secondAttribute="top" constant="8" id="WyZ-39-xcO"/>
+                                    <constraint firstAttribute="trailing" secondItem="qaZ-b3-8R1" secondAttribute="trailing" constant="10" id="t6n-66-VBa"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1nA-pK-g15">
+                                <rect key="frame" x="0.0" y="682" width="414" height="180"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="0NV-Sy-rjc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6aT-w0-72P"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ihg-Ee-kYJ" firstAttribute="leading" secondItem="6aT-w0-72P" secondAttribute="leading" id="9hk-cO-Cee"/>
+                            <constraint firstItem="1nA-pK-g15" firstAttribute="leading" secondItem="6aT-w0-72P" secondAttribute="leading" id="Eqp-ji-zlb"/>
+                            <constraint firstItem="6aT-w0-72P" firstAttribute="trailing" secondItem="ihg-Ee-kYJ" secondAttribute="trailing" id="TMx-x6-aDB"/>
+                            <constraint firstItem="ihg-Ee-kYJ" firstAttribute="top" secondItem="6aT-w0-72P" secondAttribute="top" id="Zuk-5m-gIS"/>
+                            <constraint firstItem="1nA-pK-g15" firstAttribute="top" secondItem="ihg-Ee-kYJ" secondAttribute="bottom" id="gUI-R6-zuG"/>
+                            <constraint firstItem="1nA-pK-g15" firstAttribute="bottom" secondItem="6aT-w0-72P" secondAttribute="bottom" id="gmj-G5-8Ga"/>
+                            <constraint firstItem="1nA-pK-g15" firstAttribute="trailing" secondItem="6aT-w0-72P" secondAttribute="trailing" id="kCm-oL-1w3"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="tapbar_calendar" id="dPd-wU-KHn"/>
+                    <connections>
+                        <outlet property="calendarView" destination="qaZ-b3-8R1" id="RIi-h4-DUg"/>
+                        <outlet property="currentLabel" destination="xAp-2q-JCC" id="LLT-me-g4f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BoG-ro-Hfg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="450.72463768115944" y="-173.4375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tapbar_calendar" width="7" height="7.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
