@@ -29,7 +29,6 @@
 		FC2C7E2F25F498B100CD3512 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = FC2C7E2E25F498B100CD3512 /* FSCalendar */; };
 		FC2C7E3725F49F4E00CD3512 /* BodyInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2C7E3625F49F4E00CD3512 /* BodyInfo.storyboard */; };
 		FC2C7E3A25F49F6B00CD3512 /* BodyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C7E3925F49F6B00CD3512 /* BodyInfoViewController.swift */; };
-		FC2C7E4625F4A04300CD3512 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2C7E4525F4A04300CD3512 /* image.png */; };
 		FC2C7E4925F4BD2100CD3512 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2C7E4825F4BD2100CD3512 /* Search.storyboard */; };
 		FC2C7E4F25F4BD7500CD3512 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C7E4E25F4BD7500CD3512 /* SearchViewController.swift */; };
 		FC2C7E5B25F4C7F800CD3512 /* SearchBrandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C7E5925F4C7F800CD3512 /* SearchBrandCell.swift */; };
@@ -45,11 +44,10 @@
 		FC97791E25F4E37E00775EDF /* WeekHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97791C25F4E37E00775EDF /* WeekHistoryCell.swift */; };
 		FC97791F25F4E37E00775EDF /* WeekHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC97791D25F4E37E00775EDF /* WeekHistoryCell.xib */; };
 		FC97792625F4E48D00775EDF /* DayCalorieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97792525F4E48D00775EDF /* DayCalorieView.swift */; };
-		FC97792925F4E49A00775EDF /* DayHabitualView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC97792825F4E49A00775EDF /* DayHabitualView.xib */; };
-		FC97792F25F4E50000775EDF /* DayHabitualView.png in Resources */ = {isa = PBXBuildFile; fileRef = FC97792E25F4E50000775EDF /* DayHabitualView.png */; };
-		FC97793325F4E54B00775EDF /* DayCalorieView.png in Resources */ = {isa = PBXBuildFile; fileRef = FC97793225F4E54B00775EDF /* DayCalorieView.png */; };
+		FC97792925F4E49A00775EDF /* DayCalorieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC97792825F4E49A00775EDF /* DayCalorieView.xib */; };
 		FC97793625F4E55800775EDF /* DayHabitualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC97793525F4E55800775EDF /* DayHabitualView.swift */; };
-		FC97793925F4E56200775EDF /* DayHabitualView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC97793825F4E56200775EDF /* DayHabitualView.xib */; };
+		FCBBFB4C26016C2D0084E3D7 /* DayHabitualView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBBFB4B26016C2D0084E3D7 /* DayHabitualView.xib */; };
+		FCBBFB53260172DA0084E3D7 /* image_02.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBBFB52260172DA0084E3D7 /* image_02.png */; };
 		FCD707D825F3956200C22D01 /* WeekListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD707D625F3956200C22D01 /* WeekListCell.swift */; };
 		FCD707D925F3956200C22D01 /* WeekListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD707D725F3956200C22D01 /* WeekListCell.xib */; };
 		FCE4457B25F4DE3400EBE039 /* rice_white.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE4457A25F4DE3400EBE039 /* rice_white.png */; };
@@ -78,7 +76,6 @@
 		FC07AAE725E70B0200CFF9BC /* Weekday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
 		FC2C7E3625F49F4E00CD3512 /* BodyInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BodyInfo.storyboard; sourceTree = "<group>"; };
 		FC2C7E3925F49F6B00CD3512 /* BodyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyInfoViewController.swift; sourceTree = "<group>"; };
-		FC2C7E4525F4A04300CD3512 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../../../../../../../../Desktop/image.png; sourceTree = "<group>"; };
 		FC2C7E4825F4BD2100CD3512 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		FC2C7E4E25F4BD7500CD3512 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FC2C7E5925F4C7F800CD3512 /* SearchBrandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBrandCell.swift; sourceTree = "<group>"; };
@@ -96,11 +93,10 @@
 		FC97791C25F4E37E00775EDF /* WeekHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekHistoryCell.swift; sourceTree = "<group>"; };
 		FC97791D25F4E37E00775EDF /* WeekHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeekHistoryCell.xib; sourceTree = "<group>"; };
 		FC97792525F4E48D00775EDF /* DayCalorieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DayCalorieView.swift; path = Spatula/VC/Common/DayCalorieView/DayCalorieView.swift; sourceTree = SOURCE_ROOT; };
-		FC97792825F4E49A00775EDF /* DayHabitualView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DayHabitualView.xib; path = Spatula/VC/Common/DayHabitualView/DayHabitualView.xib; sourceTree = SOURCE_ROOT; };
-		FC97792E25F4E50000775EDF /* DayHabitualView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DayHabitualView.png; path = ../../../../../../../../Desktop/DayHabitualView.png; sourceTree = "<group>"; };
-		FC97793225F4E54B00775EDF /* DayCalorieView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DayCalorieView.png; path = ../../../../../../../../Desktop/DayCalorieView.png; sourceTree = "<group>"; };
+		FC97792825F4E49A00775EDF /* DayCalorieView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DayCalorieView.xib; path = Spatula/VC/Common/DayHabitualView/DayCalorieView.xib; sourceTree = SOURCE_ROOT; };
 		FC97793525F4E55800775EDF /* DayHabitualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayHabitualView.swift; sourceTree = "<group>"; };
-		FC97793825F4E56200775EDF /* DayHabitualView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayHabitualView.xib; sourceTree = "<group>"; };
+		FCBBFB4B26016C2D0084E3D7 /* DayHabitualView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayHabitualView.xib; sourceTree = "<group>"; };
+		FCBBFB52260172DA0084E3D7 /* image_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_02.png; sourceTree = "<group>"; };
 		FCD707D625F3956200C22D01 /* WeekListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekListCell.swift; sourceTree = "<group>"; };
 		FCD707D725F3956200C22D01 /* WeekListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeekListCell.xib; sourceTree = "<group>"; };
 		FCE4457A25F4DE3400EBE039 /* rice_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rice_white.png; sourceTree = "<group>"; };
@@ -275,10 +271,8 @@
 		FC2C7E4025F49FD900CD3512 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				FC97793225F4E54B00775EDF /* DayCalorieView.png */,
-				FC97792E25F4E50000775EDF /* DayHabitualView.png */,
 				FCE4457A25F4DE3400EBE039 /* rice_white.png */,
-				FC2C7E4525F4A04300CD3512 /* image.png */,
+				FCBBFB52260172DA0084E3D7 /* image_02.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -382,7 +376,7 @@
 			isa = PBXGroup;
 			children = (
 				FC97793525F4E55800775EDF /* DayHabitualView.swift */,
-				FC97793825F4E56200775EDF /* DayHabitualView.xib */,
+				FCBBFB4B26016C2D0084E3D7 /* DayHabitualView.xib */,
 			);
 			path = DayHabitualView;
 			sourceTree = "<group>";
@@ -391,7 +385,7 @@
 			isa = PBXGroup;
 			children = (
 				FC97792525F4E48D00775EDF /* DayCalorieView.swift */,
-				FC97792825F4E49A00775EDF /* DayHabitualView.xib */,
+				FC97792825F4E49A00775EDF /* DayCalorieView.xib */,
 			);
 			path = DayCalorieView;
 			sourceTree = "<group>";
@@ -478,14 +472,15 @@
 			files = (
 				FC07AA9725E5BEBA00CFF9BC /* Login.storyboard in Resources */,
 				FCD707D925F3956200C22D01 /* WeekListCell.xib in Resources */,
-				FC97792925F4E49A00775EDF /* DayHabitualView.xib in Resources */,
+				FC97792925F4E49A00775EDF /* DayCalorieView.xib in Resources */,
 				FC97791F25F4E37E00775EDF /* WeekHistoryCell.xib in Resources */,
 				FC07AAD425E7098800CFF9BC /* WeekDayCell.xib in Resources */,
 				FC07AAC325E703FA00CFF9BC /* AddFood.storyboard in Resources */,
 				FC2C7E4925F4BD2100CD3512 /* Search.storyboard in Resources */,
+				FCBBFB53260172DA0084E3D7 /* image_02.png in Resources */,
 				FC7F175E25DF393900FA8DBF /* LaunchScreen.storyboard in Resources */,
-				FC2C7E4625F4A04300CD3512 /* image.png in Resources */,
 				FC07AAC625E7042600CFF9BC /* MyPage.storyboard in Resources */,
+				FCBBFB4C26016C2D0084E3D7 /* DayHabitualView.xib in Resources */,
 				FCE4457B25F4DE3400EBE039 /* rice_white.png in Resources */,
 				FC2C7E6125F4C80800CD3512 /* SearchItemCell.xib in Resources */,
 				FC2C7E5C25F4C7F800CD3512 /* SearchBrandCell.xib in Resources */,
@@ -494,9 +489,6 @@
 				FC07AABD25E7034100CFF9BC /* Week.storyboard in Resources */,
 				FC07AAC925E7045400CFF9BC /* Cart.storyboard in Resources */,
 				FC2C7E3725F49F4E00CD3512 /* BodyInfo.storyboard in Resources */,
-				FC97792F25F4E50000775EDF /* DayHabitualView.png in Resources */,
-				FC97793925F4E56200775EDF /* DayHabitualView.xib in Resources */,
-				FC97793325F4E54B00775EDF /* DayCalorieView.png in Resources */,
 				FC7F175925DF393800FA8DBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
