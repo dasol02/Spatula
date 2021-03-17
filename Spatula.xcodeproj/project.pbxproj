@@ -52,6 +52,7 @@
 		FCD707D925F3956200C22D01 /* WeekListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD707D725F3956200C22D01 /* WeekListCell.xib */; };
 		FCE4457B25F4DE3400EBE039 /* rice_white.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE4457A25F4DE3400EBE039 /* rice_white.png */; };
 		FCE4457F25F4DE7A00EBE039 /* PopUpInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE4457E25F4DE7A00EBE039 /* PopUpInputViewController.swift */; };
+		FCEC67D52602BE95006BEC6D /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = FCEC67D42602BE95006BEC6D /* Cosmos */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEC67D52602BE95006BEC6D /* Cosmos in Frameworks */,
 				FC2C7E2F25F498B100CD3512 /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +427,7 @@
 			name = Spatula;
 			packageProductDependencies = (
 				FC2C7E2E25F498B100CD3512 /* FSCalendar */,
+				FCEC67D42602BE95006BEC6D /* Cosmos */,
 			);
 			productName = Spatula;
 			productReference = FC7F174E25DF393800FA8DBF /* Spatula.app */;
@@ -455,6 +458,7 @@
 			mainGroup = FC7F174525DF393800FA8DBF;
 			packageReferences = (
 				FC2C7E2D25F498B100CD3512 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				FCEC67D32602BE95006BEC6D /* XCRemoteSwiftPackageReference "Cosmos" */,
 			);
 			productRefGroup = FC7F174F25DF393800FA8DBF /* Products */;
 			projectDirPath = "";
@@ -735,6 +739,14 @@
 				minimumVersion = 2.8.2;
 			};
 		};
+		FCEC67D32602BE95006BEC6D /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 23.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -742,6 +754,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FC2C7E2D25F498B100CD3512 /* XCRemoteSwiftPackageReference "FSCalendar" */;
 			productName = FSCalendar;
+		};
+		FCEC67D42602BE95006BEC6D /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCEC67D32602BE95006BEC6D /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
